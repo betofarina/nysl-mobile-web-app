@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset end*/
+
+.leaguelogo {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#cf-images {
+    height: 170px;
+    width: 100vw;
+    margin: 0;
+}
+
+#cf-images img {
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    width: 100vw;
+    height: 170px;
+}
+
+@keyframes cf3FadeInOut {
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#cf-images img.top {
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+.navbar-fixed .page-content,
+.navbar-through .page-content {
+    padding-top: 0;
+}
+
+
+}
+
+.chooseteam {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.teams-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logo img {
+    max-width: 150px;
+    max-height: 160px;
+    min-height: 160px;
+}
+
+.team-page,
+.game-page {
+    background: white;
+}
+.game {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.game img {
+    max-height: 100px;
+    max-width: 109px;
+}
+.vs-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.fl-gif {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-height: 50px;
+    max-width: 30px;
+}
+
+.fl-image {
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    max-height: 50px;
+    max-width: 30px;
+}
+.vs-date {
+    text-align: center;
+    font-family: serif;
+    color: firebrick;
+    margin-top: 20px;
+}
+.game-info > p {
+    margin-left: 20px;
+}
+.app-map-parent {
+    display: flex;
+    justify-content: center;
+}
+.app-map {
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+}
+.login-screen-content .content-block, .login-screen-content .list-block, .login-screen-content .list-block-label, .login-screen-content .login-screen-title {
+   
+    margin: 0px auto;
+}
+.margin-imgs {
+    height: 44px;
+    width: auto;
+}
