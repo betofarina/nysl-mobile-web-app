@@ -1,4 +1,4 @@
-# nysl-mobile-web-app                           https://betofarina.github.io/nysl-mobile-web-app/   or in Firebase https://mobile-web-app-fd865.firebaseapp.com/
+# nysl-mobile-web-app                         in Firebase https://mobile-web-app-fd865.firebaseapp.com/
                                               
 User Friendly Mobile Web App design to show game information from the nysl website.
 
