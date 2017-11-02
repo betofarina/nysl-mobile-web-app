@@ -28,8 +28,8 @@ function createGame(game) {
     /* we create the first team logo*/
     $divGame.append(createLogo(data.teams[game.teams[0]]));
     var $divVS = $('<div class="vs-container"/>');
-    var $vsGif = $('<img class="fl-gif"/>').attr("src", "/img/flame.gif");
-    var $vsImg = $('<img class="fl-image"/>').attr("src", "/img/v2.png");
+    var $vsGif = $('<img class="fl-gif"/>').attr("src", "img/flame.gif");
+    var $vsImg = $('<img class="fl-image"/>').attr("src", "img/v2.png");
     var $vsDate = $('<p class="vs-date">');
     $vsDate.html(game.date);
     $divVS.append($vsGif).append($vsImg).append($vsDate);
