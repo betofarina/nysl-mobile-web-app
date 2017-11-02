@@ -1,27 +1,27 @@
 var data = {
     "teams" : [{
         "name": "miners",
-        "logo": "/img/miners.png",
+        "logo": "img/miners.png",
         "code": "0"
     },{
         "name": "fear",
-        "logo": "/img/fear.png",
+        "logo": "img/fear.png",
         "code": "1"
     },{
         "name": "dking",
-        "logo": "/img/dking.png",
+        "logo": "img/dking.png",
         "code": "2"
     },{
         "name": "furious",
-        "logo": "/img/furious.png",
+        "logo": "img/furious.png",
         "code": "3"
     },{
         "name": "wolfs",
-        "logo": "/img/wolf.png",
+        "logo": "img/wolf.png",
         "code": "4"
     },{
         "name": "revolution",
-        "logo": "/img/revolution.png",
+        "logo": "img/revolution.png",
         "code": "5"
     }],
     "locations" : [{
